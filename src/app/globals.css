@@ -27,3 +27,43 @@
   } */
 
 }
+
+.offer .swiper-pagination-bullet {
+  background-color: rgba(239, 202, 205, 1) !important;
+  opacity: 0.6;
+}
+.offer .swiper-pagination-bullet-active {
+  background-color: rgba(191, 52, 62, 1) !important;
+  opacity: 1;
+}
+.offer_inner .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 1) !important;
+  opacity: 0.6;
+  z-index: 99;
+}
+.offer_inner .swiper-pagination-bullet-active {
+  background-color: rgba(191, 52, 62, .1) !important;
+  opacity: 1;
+
+}
+
+.offer_inner .swiper-button-prev, .offer_inner .swiper-button-next {
+  background: rgba(255, 255, 255, 1) !important;
+  width: 50px ;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 16px !important;
+  color: rgba(191, 52, 62, 1) !important;
+}
+
+/* .offer_inne .swiper-button-next::after {
+  font-size: 16px !important;
+  color: rgba(191, 52, 62, 1) !important;
+
+} */
+
+.swiper-button-prev::after, .swiper-button-next::after{
+  font-size: 16px !important;
+  color: rgba(191, 52, 62, 1) !important;
+
+}
