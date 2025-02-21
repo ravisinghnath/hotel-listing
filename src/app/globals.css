@@ -28,42 +28,66 @@
 
 }
 
-.offer .swiper-pagination-bullet {
-  background-color: rgba(239, 202, 205, 1) !important;
-  opacity: 0.6;
-}
-.offer .swiper-pagination-bullet-active {
-  background-color: rgba(191, 52, 62, 1) !important;
-  opacity: 1;
-}
-.offer_inner .swiper-pagination-bullet {
-  background: rgba(255, 255, 255, 1) !important;
-  opacity: 0.6;
-  z-index: 99;
-}
-.offer_inner .swiper-pagination-bullet-active {
-  background-color: rgba(191, 52, 62, .1) !important;
-  opacity: 1;
-
-}
-
-.offer_inner .swiper-button-prev, .offer_inner .swiper-button-next {
-  background: rgba(255, 255, 255, 1) !important;
-  width: 50px ;
-  height: 50px;
+/* .swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
-  font-size: 16px !important;
-  color: rgba(191, 52, 62, 1) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* .offer_inne .swiper-button-next::after {
-  font-size: 16px !important;
-  color: rgba(191, 52, 62, 1) !important;
+.swiper-button-prev {
+  left: -50px;
+}
 
+.swiper-button-next {
+  right: -50px; 
 } */
 
-.swiper-button-prev::after, .swiper-button-next::after{
-  font-size: 16px !important;
-  color: rgba(191, 52, 62, 1) !important;
-
+.customer-review .swiper-wrapper {
+  padding-bottom: 50px;
 }
+.customer-review .swiper-pagination-bullet-active {
+  background: rgba(109, 109, 109, 1) !important;
+}
+.customer-review .swiper-button-prev, 
+.customer-review .swiper-button-next {
+  background-color: rgba(255, 235, 235, 1); /* Light red background */
+  color: rgba(191, 52, 62, 1) !important; /* Red arrow color */
+  border-radius: 50%; /* Make it circular */
+  width: 40px !important;
+  height: 40px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-review .swiper-button-prev::after,
+.customer-review .swiper-button-next::after {
+  font-size: 18px !important; /* Adjust arrow size */
+  font-weight: bold !important;
+}
+
+/* .customer-review .swiper-button-prev {
+  left: 0;
+  transform: translateX(-70px)
+}
+
+.customer-review .swiper-button-next {
+  right: 0;
+  transform: translateX(70px);
+}
+
+.customer-review .swiper-button-prev, 
+.customer-review .swiper-button-next {
+  z-index: 10;
+  position: absolute;
+} */
