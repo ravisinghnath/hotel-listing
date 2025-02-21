@@ -3,8 +3,8 @@ import Banner from "./components/banner";
 import Footer from "./components/Footer";
 import Celebration from "./components/celebration/celebration";
 import Collection from "./components/collection/collection";
-// import Offers from "./components/offers";
 import OfferSlider from "./components/offers/OfferSlider";
+import Facility from "./components/different-facility/facility";
 
 export default function Home() {
   return (
@@ -13,8 +13,8 @@ export default function Home() {
      <Banner />
      <Celebration />
      <Collection />
-     {/* <Offers /> */}
-     <OfferSlider />
+    <OfferSlider />
+     <Facility />
      <Footer />
 
     </>
