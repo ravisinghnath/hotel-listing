@@ -5,6 +5,7 @@ import Celebration from "./components/celebration/celebration";
 import Collection from "./components/collection/collection";
 import OfferSlider from "./components/offers/OfferSlider";
 import Facility from "./components/different-facility/Facility";
+import CustomerReview from "./components/customer-review/CustomerReview";
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
      <Banner />
      <Celebration />
      <Collection />
-    <OfferSlider />
-     <Facility />
+      <OfferSlider />
+      <Facility />
+     <CustomerReview />
      <Footer />
 
     </>
