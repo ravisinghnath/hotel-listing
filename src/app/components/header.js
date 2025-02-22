@@ -64,7 +64,7 @@ function header() {
          <li><a href="#" className="text-secondary-text hover:text-primary-bg font-medium">Places to Stay</a></li>
          <li><a href="#" className="text-secondary-text hover:text-primary-bg font-medium">Offers</a></li>
             {/* Quote Button */}
-        <li><a href="#" className="hidden md:block bg-primary-bg text-white px-5 py-2 rounded-full transition-all delay-200 border-2 border-primary-bg hover:bg-transparent hover:text-primary-bg">Get a Quote</a></li>
+        <li><Link href="#" className="hidden md:block bg-primary-bg text-white px-5 py-2 rounded-full transition-all delay-200 border-2 border-primary-bg hover:bg-transparent hover:text-primary-bg">Get a Quote</Link></li>
         </ul>
       </div>
 

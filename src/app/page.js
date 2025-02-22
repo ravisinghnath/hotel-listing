@@ -6,6 +6,7 @@ import Collection from "./components/collection/collection";
 import OfferSlider from "./components/offers/OfferSlider";
 import Facility from "./components/different-facility/Facility";
 import CustomerReview from "./components/customer-review/CustomerReview";
+import Help from "./components/Help";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <OfferSlider />
       <Facility />
      <CustomerReview />
+     <Help />
      <Footer />
 
     </>
