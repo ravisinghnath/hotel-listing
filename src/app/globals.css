@@ -13,6 +13,7 @@
     font-style: normal;
 		font-weight: 400;
 		font-display: swap;
+    overflow: scroll;
   }
 
   /* :root {
@@ -72,6 +73,34 @@
 
 .customer-review .swiper-button-prev::after,
 .customer-review .swiper-button-next::after {
+  font-size: 18px !important; /* Adjust arrow size */
+  font-weight: bold !important;
+}
+.investigation {
+  overflow: visible !important;
+
+.investigation .swiper-wrapper {
+  padding-bottom: 50px;
+}
+.investigation .swiper-pagination-bullet-active {
+  background: rgba(109, 109, 109, 1) !important;
+}
+.investigation .swiper-button-prev, 
+.investigation .swiper-button-next {
+  background-color:#fff; /* Light red background */
+  color: rgba(191, 52, 62, 1) !important; /* Red arrow color */
+  border-radius: 50%; /* Make it circular */
+  width: 60px !important;
+  height: 60px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(191, 52, 62, 1);
+
+}
+
+.investigation .swiper-button-prev::after,
+.investigation .swiper-button-next::after {
   font-size: 18px !important; /* Adjust arrow size */
   font-weight: bold !important;
 }

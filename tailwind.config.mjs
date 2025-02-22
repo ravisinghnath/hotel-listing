@@ -18,6 +18,7 @@ export default {
         "main-bg":"rgba(255, 255, 255, 1)",
         "primary-bg":"rgba(191, 52, 62, 1)",
         "secondary-bg":"rgba(255, 245, 246, 1)",
+        "teritary-bg":"rgba(249, 249, 249, 1)",
         "head-bg":"rgba(240, 240, 240, 1)",
         "overlay-bg":"rgba(0, 0, 0, 0.5)",
         "border-color":"rgba(183, 183, 183, 1)",

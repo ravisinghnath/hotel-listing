@@ -7,6 +7,7 @@ import OfferSlider from "./components/offers/OfferSlider";
 import Facility from "./components/different-facility/Facility";
 import CustomerReview from "./components/customer-review/CustomerReview";
 import Help from "./components/Help";
+import Inspiration from "./components/inspiration/Inspiration";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Facility />
      <CustomerReview />
      <Help />
+     <Inspiration />
      <Footer />
 
     </>
