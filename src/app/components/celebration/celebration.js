@@ -1,4 +1,4 @@
-// import CelebrationCard from "./CelebrationCard"
+import CelebrationCard from "./CelebrationCard"
 import Heading from "../heading/Heading";
 import celebration1 from '@/app/asset/celebration1.svg';
 import celebration2 from '@/app/asset/celebration2.svg';
