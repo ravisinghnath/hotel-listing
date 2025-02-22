@@ -3,7 +3,7 @@ import FacilityCard from './FacilityCard'
 import facility1 from '@/app/asset/facility1.svg'
 import facility2 from '@/app/asset/facility2.svg'
 import facility3 from '@/app/asset/facility3.svg'
-import Heading from '../heading/heading'
+import Heading from '../heading/Heading'
 
 function facility() {
   return (

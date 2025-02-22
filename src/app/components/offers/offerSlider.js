@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from 'next/image';
-import Heading from "../heading/heading";
+import Heading from "../heading/Heading";
 import Button from '../button/button';
 import OfferImageSlider from './OfferImageSlider'; ''
 

@@ -19,8 +19,8 @@ export default function Home() {
       <OfferSlider />
       <Facility />
      <CustomerReview />
-     <Help />
      <Inspiration />
+     <Help />
      <Footer />
     </>
   );

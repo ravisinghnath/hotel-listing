@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Heading from '../heading/heading';
+import Heading from '../heading/Heading';
 import CustomerSlider from './CustomerSlider';
 
 function CustomerReview() {
