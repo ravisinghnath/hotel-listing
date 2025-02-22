@@ -31,7 +31,7 @@ export default function banner() {
     return (
         <>
             <div className="bg-[url('./asset/banner-img.png')] flex justify-center items-center h-full bg-cover bg-center lg:pt-32 pt-20 lg:pb-40 pb-12 relative after:absolute after:bg-overlay-bg after:top-0 after:left-0 after:bottom-0 after:right-0">
-                <div className="container z-50 text-white flex flex-col justify-center">
+                <div className="container z-10 text-white flex flex-col justify-center">
                     <div className="flex justify-center">
                         <h1 className="lg:text-5xl text-4xl font-bold lg:max-w-[417px] max-w-[390px] !leading-snug text-center">Your Love Story Deserves the Best </h1>
                     </div>
