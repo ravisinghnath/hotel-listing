@@ -22,7 +22,6 @@ export default function Home() {
      <Help />
      <Inspiration />
      <Footer />
-
     </>
   );
 }
