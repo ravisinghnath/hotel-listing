@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import Image from 'next/image';
 import Heading from "../heading/heading";
 import Button from '../button/button';
-import OfferImageSlider from './offerImageSlider'; ''
+import OfferImageSlider from './OfferImageSlider'; ''
 
 function offerSlider() {
   return (

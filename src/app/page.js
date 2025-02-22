@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Celebration from "./components/celebration/celebration";
 import Collection from "./components/collection/collection";
 // import Offers from "./components/offers";
-import OfferSlider from "./components/offers/offerSlider";
+import OfferSlider from "./components/offers/OfferSlider";
 
 export default function Home() {
   return (
