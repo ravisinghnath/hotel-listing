@@ -1,5 +1,5 @@
 import React from 'react'
-import FacilityCard from './facilityCard'
+import FacilityCard from './FacilityCard'
 import facility1 from '@/app/asset/facility1.svg'
 import facility2 from '@/app/asset/facility2.svg'
 import facility3 from '@/app/asset/facility3.svg'
