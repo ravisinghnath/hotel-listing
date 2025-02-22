@@ -31,7 +31,7 @@ export default {
    
     container: {
         center: true, // Centers the container
-        padding: '24px', // Adds padding to prevent content from touching edges
+        padding: '20px', // Adds padding to prevent content from touching edges
         screens: {
           sm: '640px',
           md: '768px',
