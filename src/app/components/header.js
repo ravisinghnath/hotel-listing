@@ -63,7 +63,7 @@ function header() {
     </div>
     </div>
    <div className={`fixed left-0 w-full z-50 transition-all duration-75 ${
-          isScrolled ? "top-0 bg-white shadow-md" : "top-[38px] bg-white"
+          isScrolled ? "top-0 bg-white shadow-md" : "lg:top-[38px] top-[35px] bg-white"
         }`} >
     <nav className="bg-main-bg shadow-md" >
       <div className="container mx-auto  py-3.5 flex justify-between items-center w-full max-md:relative">
