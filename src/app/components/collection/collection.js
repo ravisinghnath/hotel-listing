@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Heading from "../heading/heading";
+import Heading from "../heading/Heading";
 // import CollectionCard from "./collection";
-import CollectionCard from "./collectionCard";
+import CollectionCard from "./CollectionCard";
 import collection1 from '@/app/asset/collection1.svg'
 import collection2 from '@/app/asset/collection2.svg'
 import collection3 from '@/app/asset/collection3.svg'

@@ -5,7 +5,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import Heading from './heading/heading';
+import Heading from './heading/Heading';
 import collection1 from '@/app/asset/collection1.svg'
 import Image from "next/image";
 

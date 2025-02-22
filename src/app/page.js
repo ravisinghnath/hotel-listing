@@ -1,9 +1,9 @@
-import Header from "./components/header";
-import Banner from "./components/banner";
-import Footer from "./components/footer";
-import Celebration from "./components/celebration/celebration";
-import Collection from "./components/collection/collection";
-import Offers from "./components/offers";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
+import Celebration from "./components/celebration/Celebration";
+import Collection from "./components/collection/Collection";
+import Offers from "./components/Offers";
 
 export default function Home() {
   return (
