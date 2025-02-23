@@ -62,7 +62,7 @@ function header() {
     </div>
     </div>
     </div>
-   <div className={`fixed left-0 w-full z-50 transition-all duration-75 ${
+   <div className={`fixed left-0 w-full z-20 transition-all duration-75 ${
           isScrolled ? "top-0 bg-white shadow-md" : "lg:top-[38px] top-[35px] bg-white"
         }`} >
     <nav className="bg-main-bg shadow-md" >
