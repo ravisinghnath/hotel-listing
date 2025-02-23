@@ -79,7 +79,8 @@ function header() {
         <ul className="hidden md:flex items-center space-x-11">
          <li><Link href="/sceneries" className="text-secondary-text hover:text-primary-bg font-medium">Sceneries</Link></li>
          <li><Link href="/places" className="text-secondary-text hover:text-primary-bg font-medium">Places to Stay</Link></li>
-         <li><Link href="/offers" className="text-secondary-text hover:text-primary-bg font-medium">Offers</Link></li>
+         <li><Link href="/offers-menu" className="text-secondary-text hover:text-primary-bg font-medium">Offers</Link></li>
+         <li><Link href="/wild-collection" className="text-secondary-text hover:text-primary-bg font-medium">Wild collection</Link></li>
             {/* Quote Button */}
         <li><Link href="#" className="hidden md:block bg-primary-bg text-white px-5 py-2 rounded-full transition-all delay-200 border-2 border-primary-bg hover:bg-transparent hover:text-primary-bg">Get a Quote</Link></li>
         </ul>
