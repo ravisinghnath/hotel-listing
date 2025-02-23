@@ -1,4 +1,4 @@
-import WildBreadcrumb from "../components/breadcrumb/WildBreadcrumb"
+import WildBreadcrumb from "@/app/components/breadcrumb/WildBreadcrumb"
 
 export default function page(){
     return(
