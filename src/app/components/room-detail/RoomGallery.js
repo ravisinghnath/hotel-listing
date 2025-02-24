@@ -12,6 +12,7 @@ import Room5 from '@/app/asset/room5.svg'
 import Image from 'next/image';
 import { useState, useEffect } from "react";
 import OfferImageSlider from '../offers/OfferImageSlider';
+import RoomSlider from './RoomSlider';
 
 
 function RoomDetail() {
@@ -45,9 +46,11 @@ function RoomDetail() {
             </div>
           </div>
         </div>
-        <div className='md:hidden'>
-          <OfferImageSlider />
         </div>
+        <div className='md:hidden'>
+        <RoomSlider />
+        </div>
+        <div className="container">
         <div className='md:py-11 py-5'>
           <p className='text-primary-bg font-medium'>Wild Collection</p>
           <h4 className='mt-2.5 text-2xl font-semibold'>Anantara Peace Haven</h4>
@@ -68,17 +71,19 @@ function RoomDetail() {
             <p className='mt-8 text-secondary-text text-lg leading-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
-
+        </div>
+        
         {isOpen && (
           <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 z-50">
             {/* Modal Content */}
             <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full">
-              <OfferImageSlider />
+              {/* <OfferImageSlider /> */}
+              <RoomSlider />
               <Link href="#" onClick={() => setIsOpen(false)} className="mt-5 inline-flex bg-primary-bg text-white text-primary-bg px-8 py-1 rounded-full transition-all delay-200 text-lg font-semibold border-2 border-primary-bg hover:bg-transparent hover:text-primary-bg">Close</Link>
             </div>
           </div>
         )}
-      </div>
+     
     </>
   )
 }

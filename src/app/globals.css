@@ -131,4 +131,17 @@
   font-weight: bold !important;
 }
 
+.roomSlider .swiper-pagination-fraction {
+  left: unset !important;
+  position: absolute;
+  right: 12px;
+  max-width: 52px;
+  bottom: 14px;
+  background: rgba(0, 0, 0, 50%);
+  padding: 5px 13px;
+  border-radius: 5px;
+  display: flex;
+  /* transform: translateX(457%); */
+  color: #fff;
+}
 
