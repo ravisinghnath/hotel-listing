@@ -22,7 +22,7 @@ function RoomBookingCard() {
                             <h3 className='text-xl font-semibold md:py-7 text-primary-bg pb-4'>From 10,000 LKR</h3>
                         </div>
                         <div className='md:px-7 px-4 py-5'>
-                            <p className='text-lg'>Deluxe rooms boast an enviable position within our Tangalle beach resort, with views of the Indian Ocean from multiple vantage points. Let the fresh ocean breeze cool you through open glass doors. Unwin</p>
+                            <p className='text-lg text-secondary-text'>Deluxe rooms boast an enviable position within our Tangalle beach resort, with views of the Indian Ocean from multiple vantage points. Let the fresh ocean breeze cool you through open glass doors. Unwin</p>
                             <div className='md:mt-12 mt-6'>
                                 <h6 className='text-lg text-primary-text font-semibold'>Features</h6>
                                 <div className='mt-4 flex gap-8 flex-wrap xl:flex-nowrap justify-between'>
