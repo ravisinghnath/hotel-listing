@@ -11,7 +11,6 @@ import Room4 from '@/app/asset/room4.svg'
 import Room5 from '@/app/asset/room5.svg'
 import Image from 'next/image';
 import { useState, useEffect } from "react";
-import OfferImageSlider from '../offers/OfferImageSlider';
 import RoomSlider from './RoomSlider';
 
 
