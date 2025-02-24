@@ -11,13 +11,13 @@ function Breadcrumb(props) {
 	  <Link href="#" className="text-secondary-text hover:text-primary-bg underline text-sm">
       {props.title}
 	  </Link>
-	  <FaAngleRight className='text-secondary-text mx-4' size={11} />
+	  <FaAngleRight className='text-secondary-text lg:mx-4 mx-2' size={11} />
 	</li>
 	<li className="inline-flex items-center">
 	  <Link href="#" className="text-secondary-text hover:text-primary-bg underline text-sm">
       {props.subtitle}
 	  </Link>
-	  <FaAngleRight className='text-secondary-text mx-4' size={11} />
+	  <FaAngleRight className='text-secondary-text lg:mx-4 mx-2' size={11} />
 	</li>
 	<li className="inline-flex items-center">
 	  <Link href="#" className="text-secondary-text hover:text-primary-bg underline text-sm">
