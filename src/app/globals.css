@@ -97,7 +97,6 @@
   align-items: center;
   justify-content: center;
   border: 2px solid rgba(191, 52, 62, 1);
-
 }
 
 .investigation .swiper-button-prev::after,
@@ -106,18 +105,30 @@
   font-weight: bold !important;
 }
 
-/* .customer-review .swiper-button-prev {
-  left: 0;
-  transform: translateX(-70px)
+
+
+
+
+.offer .swiper-pagination-bullet-active {
+  background: rgba(191, 52, 62, 1) !important;
 }
 
-.customer-review .swiper-button-next {
-  right: 0;
-  transform: translateX(70px);
+.offer .swiper-button-prev, 
+.offer .swiper-button-next {
+  background-color: rgba(255, 235, 235, 1); /* Light red background */
+  color: rgba(191, 52, 62, 1) !important; /* Red arrow color */
+  border-radius: 50%; /* Make it circular */
+  width: 40px !important;
+  height: 40px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.customer-review .swiper-button-prev, 
-.customer-review .swiper-button-next {
-  z-index: 10;
-  position: absolute;
-} */
+.offer .swiper-button-prev::after,
+.offer .swiper-button-next::after {
+  font-size: 18px !important; /* Adjust arrow size */
+  font-weight: bold !important;
+}
+
+

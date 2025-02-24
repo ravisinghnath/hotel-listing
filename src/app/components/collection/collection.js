@@ -15,7 +15,6 @@ export default function collection(){
            <div className="container lg:py-16 py-12">
            <Heading heading={"Explore our Collection"} subheading={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim"} />
            <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
-           {/* <Image src={collection1} height="265" className="rounded-t-xl" alt="Collection_img" /> */}
            <CollectionCard image={collection1} collection="Wild Collection" starting="Starting from" place="Uga Jungle Beach" rating="4.8" price="10,000 LKR"  />
            <CollectionCard image={collection2} collection="Wild Collection" starting="Starting from" place="Uga Jungle Beach" rating="4.8" price="10,000 LKR"  />
            <CollectionCard image={collection3} collection="Wild Collection" starting="Starting from" place="Uga Jungle Beach" rating="4.8" price="10,000 LKR"  />

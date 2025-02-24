@@ -6,21 +6,21 @@ function Breadcrumb(props) {
   return (
     <>
       <div className="bg-white flex items-center flex-wrap my-6">
-    <ul className="flex items-center">
+    <ul className="flex items-center flex-wrap">
 	<li className="inline-flex items-center">
-	  <Link href="#" className="text-secondary-text hover:text-primary-bg">
+	  <Link href="#" className="text-secondary-text hover:text-primary-bg underline text-sm">
       {props.title}
 	  </Link>
 	  <FaAngleRight className='text-secondary-text mx-4' size={11} />
 	</li>
 	<li className="inline-flex items-center">
-	  <Link href="#" className="text-secondary-text hover:text-primary-bg">
+	  <Link href="#" className="text-secondary-text hover:text-primary-bg underline text-sm">
       {props.subtitle}
 	  </Link>
 	  <FaAngleRight className='text-secondary-text mx-4' size={11} />
 	</li>
 	<li className="inline-flex items-center">
-	  <Link href="#" className="text-secondary-text hover:text-primary-bg">
+	  <Link href="#" className="text-secondary-text hover:text-primary-bg underline text-sm">
       {props.subsubtitle}
 	  </Link>
 	</li>

@@ -7,13 +7,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from 'next/image';
 import Heading from "../heading/Heading";
-import Button from '../button/button';
-import OfferImageSlider from './OfferImageSlider'; ''
+import Button from '../button/Button';
+import OfferImageSlider from './OfferImageSlider';
 
 function offerSlider() {
   return (
     <>
-     <Heading heading={"Explore our Collection"} subheading={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim"} />
+     <Heading heading={"Offers that you can’t miss"} subheading={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim"} />
     
     <div className='bg-secondary-bg offer'>
     <div className='container'>

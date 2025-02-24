@@ -22,6 +22,7 @@ export default {
         "head-bg":"rgba(240, 240, 240, 1)",
         "overlay-bg":"rgba(0, 0, 0, 0.5)",
         "border-color":"rgba(183, 183, 183, 1)",
+        "star-color":"rgba(237, 203, 88, 1)",
 
         "primary-text":"rgba(40, 40, 40, 1)",
         "secondary-text":"rgba(110, 110, 110, 1)",
