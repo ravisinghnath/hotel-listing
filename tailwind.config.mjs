@@ -27,6 +27,8 @@ export default {
         "border-secondary":"rgba(232, 232, 232, 1)",
         "border-teritary":"rgba(183, 183, 183, 1)",
         "border-pink":"rgba(255, 201, 205, 1)",
+        "input-border":"rgba(224, 224, 224, 1)",
+        "label-color":"rgba(56, 56, 56, 1)",
 
 
 
