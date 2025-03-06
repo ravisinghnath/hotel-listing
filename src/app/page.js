@@ -12,16 +12,16 @@ import Inspiration from "./components/inspiration/Inspiration";
 export default function Home() {
   return (
     <>
-     <Header />
-     <Banner />
-     <Celebration />
-     <Collection />
+      <Header />
+      <Banner />
+      <Celebration />
+      <Collection />
       <OfferSlider />
       <Facility />
-     <CustomerReview />
-     <Inspiration />
-     <Help />
-     <Footer />
+      <CustomerReview />
+      <Inspiration />
+      <Help />
+      <Footer />
     </>
   );
 }

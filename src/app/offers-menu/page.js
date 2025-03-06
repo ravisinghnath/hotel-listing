@@ -1,12 +1,10 @@
-import React from 'react'
-import Header from '../components/Header'
-import RoomGallerySlider from '../components/room-detail/RoomGallerySlider'
-import WildBreadcrumb from "@/app/components/breadcrumb/WildBreadcrumb"
-import DeluxeRoomDetail from '../components/deluxe-room/DeluxeRoomDetail'
-import RoomAmenities from '../components/RoomAmenities'
-import Packages from '../components/packages/Packages'
-
-
+import React from "react";
+import Header from "../components/Header";
+import RoomGallerySlider from "../components/room-detail/RoomGallerySlider";
+import WildBreadcrumb from "@/app/components/breadcrumb/WildBreadcrumb";
+import DeluxeRoomDetail from "../components/deluxe-room/DeluxeRoomDetail";
+import RoomAmenities from "../components/RoomAmenities";
+import Packages from "../components/packages/Packages";
 
 function page() {
   return (
@@ -20,7 +18,7 @@ function page() {
       <RoomAmenities />
       <Packages />
     </div>
-  )
+  );
 }
 
-export default page
+export default page;

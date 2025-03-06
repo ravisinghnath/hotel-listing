@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function LeftHeading(props) {
   return (
     <div>
-      <h2 className='lg:text-3xl text-xl font-semibold text-primary-text'>{props.title}</h2>
+      <h2 className="lg:text-3xl text-xl font-semibold text-primary-text">
+        {props.title}
+      </h2>
     </div>
-  )
+  );
 }
 
-export default LeftHeading
+export default LeftHeading;

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function page() {
-  return (
-    <div>
-      Sceneries
-    </div>
-  )
+  return <div>Sceneries</div>;
 }
 
-export default page
+export default page;

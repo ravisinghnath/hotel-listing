@@ -2,17 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   html {
-		font-size: 14px;
-	}
+    font-size: 14px;
+  }
 
-  body{
-    font-family:'poppins', 'sans-serif';
+  body {
+    font-family: "poppins", "sans-serif";
     font-style: normal;
-		font-weight: 400;
-		font-display: swap;
+    font-weight: 400;
+    font-display: swap;
     overflow: scroll;
   }
 
@@ -26,7 +25,6 @@
     --color-secondary-text:110 110 110;
     --color-tertiary-text:;
   } */
-
 }
 
 /* .swiper-button-prev,
@@ -59,7 +57,7 @@
 .customer-review .swiper-pagination-bullet-active {
   background: rgba(109, 109, 109, 1) !important;
 }
-.customer-review .swiper-button-prev, 
+.customer-review .swiper-button-prev,
 .customer-review .swiper-button-next {
   background-color: rgba(255, 235, 235, 1); /* Light red background */
   color: rgba(191, 52, 62, 1) !important; /* Red arrow color */
@@ -86,9 +84,9 @@
 .investigation .swiper-pagination-bullet-active {
   background: rgba(109, 109, 109, 1) !important;
 }
-.investigation .swiper-button-prev, 
+.investigation .swiper-button-prev,
 .investigation .swiper-button-next {
-  background-color:#fff; /* Light red background */
+  background-color: #fff; /* Light red background */
   color: rgba(191, 52, 62, 1) !important; /* Red arrow color */
   border-radius: 50%; /* Make it circular */
   width: 60px !important;
@@ -105,15 +103,11 @@
   font-weight: bold !important;
 }
 
-
-
-
-
 .offer .swiper-pagination-bullet-active {
   background: rgba(191, 52, 62, 1) !important;
 }
 
-.offer .swiper-button-prev, 
+.offer .swiper-button-prev,
 .offer .swiper-button-next {
   background-color: rgba(255, 235, 235, 1); /* Light red background */
   color: rgba(191, 52, 62, 1) !important; /* Red arrow color */
@@ -144,4 +138,3 @@
   /* transform: translateX(457%); */
   color: #fff;
 }
-
