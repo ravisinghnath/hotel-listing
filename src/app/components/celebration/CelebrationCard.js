@@ -2,7 +2,7 @@ import Image from "next/image";
 
 
 
-export default function celebrationCard(props){
+export default function CelebrationCard(props){
     return(
         <>
             <div>

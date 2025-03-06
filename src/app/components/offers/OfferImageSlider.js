@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import slide1 from '@/app/asset/offer-slide1.svg'
 import Image from 'next/image';
 
-function offerImageSlider() {
+function OfferImageSlider() {
   return (
     <div>
         <Swiper
@@ -32,4 +32,4 @@ function offerImageSlider() {
   )
 }
 
-export default offerImageSlider
+export default OfferImageSlider

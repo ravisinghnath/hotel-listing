@@ -10,7 +10,7 @@ import collection1 from '@/app/asset/collection1.svg'
 import Image from "next/image";
 
 
-export default function offers(){
+export default function Offers(){
 
     const resorts = [
         {

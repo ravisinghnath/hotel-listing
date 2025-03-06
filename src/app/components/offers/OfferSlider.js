@@ -10,7 +10,7 @@ import Heading from "../heading/Heading";
 import Button from '../button/Button';
 import OfferImageSlider from './OfferImageSlider';
 
-function offerSlider() {
+function OfferSlider() {
   return (
     <>
      <Heading heading={"Offers that you can’t miss"} subheading={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim"} />
@@ -118,7 +118,7 @@ function offerSlider() {
 }
 
 
-export default offerSlider
+export default OfferSlider
 
 
 

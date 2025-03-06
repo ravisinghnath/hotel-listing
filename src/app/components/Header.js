@@ -11,7 +11,7 @@ import Image from "next/image";
 import Link from "next/link";
 // import Breadcrumbs from '@mui/material/Breadcrumbs';
 
-function header() {
+function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const [isScrolled, setIsScrolled] = useState(false);
@@ -103,4 +103,4 @@ function header() {
   )
 }
 
-export default header
+export default Header

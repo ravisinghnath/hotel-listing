@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-function facilityCard(props) {
+function FacilityCard(props) {
   return (
     <>
     <div className='max-w-xs w-full flex flex-col justify-center items-center text-center'>
@@ -13,4 +13,4 @@ function facilityCard(props) {
   )
 }
 
-export default facilityCard
+export default FacilityCard

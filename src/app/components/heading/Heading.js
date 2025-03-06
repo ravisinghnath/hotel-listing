@@ -1,6 +1,6 @@
 
 
-export default function heading(props){
+export default function Heading(props){
     return(
         <>
             <div className="flex flex-col justify-center items-center max-w-2xl w-full mx-auto md:mb-12 mb-10">

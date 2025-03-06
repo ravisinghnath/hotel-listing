@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
 import { RiTiktokFill } from "react-icons/ri";
 
-export default function footer(){
+export default function Footer(){
     return(
         <>
         <div className="container lg:py-8 py-6">

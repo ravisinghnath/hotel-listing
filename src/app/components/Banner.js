@@ -8,7 +8,7 @@ import { FaRegSmileBeam } from "react-icons/fa";
 import { LuCalendar } from "react-icons/lu";
 import { BsCloudMoon } from "react-icons/bs";
 
-export default function banner() {
+export default function Banner() {
     const [openDropdown, setOpenDropdown] = useState(null);
     const dropdownRef = useRef(null);
 

@@ -5,7 +5,7 @@ import facility2 from '@/app/asset/facility2.svg'
 import facility3 from '@/app/asset/facility3.svg'
 import Heading from '../heading/Heading'
 
-function facility() {
+function Facility() {
   return (
     <>
     <div className='container md:py-16 py-8'>
@@ -20,4 +20,4 @@ function facility() {
   )
 }
 
-export default facility
+export default Facility

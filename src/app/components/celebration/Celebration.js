@@ -6,7 +6,7 @@ import celebration3 from '@/app/asset/celebration3.svg';
 
 
 
-export default function celebration(){
+export default function Celebration(){
     return(
         <>
             <div className="container lg:py-16 py-12">
@@ -19,4 +19,4 @@ export default function celebration(){
             </div>
         </>
     )
-}
+} 
