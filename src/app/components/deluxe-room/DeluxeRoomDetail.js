@@ -5,7 +5,7 @@ function DeluxeRoomDetail() {
   return (
     <>
       <div className="container py-12">
-        <p className="text-secondary-text font-medium">Anantara Peace Haven</p>
+        <p className="font-medium text-secondary-text">Anantara Peace Haven</p>
         <LeftHeading title="Deluxe Ocean View Room" />
         <div className="pt-12">
           <p className="text-lg text-secondary-text">

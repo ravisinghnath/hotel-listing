@@ -1,11 +1,11 @@
 export default function Heading(props) {
   return (
     <>
-      <div className="flex flex-col justify-center items-center max-w-2xl w-full mx-auto md:mb-12 mb-10">
-        <h2 className="text-primary-bg md:text-4xl text-2xl text-center font-bold">
+      <div className="mx-auto mb-10 flex w-full max-w-2xl flex-col items-center justify-center md:mb-12">
+        <h2 className="text-center text-2xl font-bold text-primary-bg md:text-4xl">
           {props.heading}
         </h2>
-        <p className="text-center text-secondary-text mt-5">
+        <p className="mt-5 text-center text-secondary-text">
           {props.subheading}
         </p>
       </div>

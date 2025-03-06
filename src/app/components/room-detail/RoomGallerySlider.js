@@ -23,28 +23,28 @@ function RoomGallerySlider() {
     <div>
       <div className="container">
         <div className="hidden md:block">
-          <div className="grid grid-cols-2 gap-2.5 h-full relative">
+          <div className="relative grid h-full grid-cols-2 gap-2.5">
             <Image
               src={Room1}
               alt="Room_image"
-              className="w-full h-full object-cover"
+              className="h-full w-full object-cover"
             />
             <div className="grid grid-cols-2 gap-2.5">
               <div>
                 <Image src={Room2} alt="Room_image" className="w-full" />
-                <Image src={Room3} alt="Room_image" className="w-full mt-2.5" />
+                <Image src={Room3} alt="Room_image" className="mt-2.5 w-full" />
               </div>
               <div>
                 <Image src={Room4} alt="Room_image" className="w-full" />
-                <Image src={Room5} alt="Room_image" className="w-full mt-2.5" />
+                <Image src={Room5} alt="Room_image" className="mt-2.5 w-full" />
               </div>
             </div>
 
-            <div className="absolute right-5 bottom-5">
+            <div className="absolute bottom-5 right-5">
               <Link
                 href="#"
                 onClick={() => setIsOpen(true)}
-                className="hidden md:block bg-white text-primary-text px-5 py-2 rounded-full transition-all delay-200 text-lg font-semibold hover:bg-black hover:text-white"
+                className="hidden rounded-full bg-white px-5 py-2 text-lg font-semibold text-primary-text transition-all delay-200 hover:bg-black hover:text-white md:block"
               >
                 See all images
               </Link>
@@ -57,15 +57,15 @@ function RoomGallerySlider() {
       </div>
 
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 z-50">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 p-4">
           {/* Modal Content */}
-          <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full">
+          <div className="w-full max-w-lg rounded-lg bg-white p-6 shadow-lg">
             {/* <OfferImageSlider /> */}
             <RoomSlider />
             <Link
               href="#"
               onClick={() => setIsOpen(false)}
-              className="mt-5 inline-flex bg-primary-bg text-white text-primary-bg px-8 py-1 rounded-full transition-all delay-200 text-lg font-semibold border-2 border-primary-bg hover:bg-transparent hover:text-primary-bg"
+              className="mt-5 inline-flex rounded-full border-2 border-primary-bg bg-primary-bg px-8 py-1 text-lg font-semibold text-primary-bg text-white transition-all delay-200 hover:bg-transparent hover:text-primary-bg"
             >
               Close
             </Link>

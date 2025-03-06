@@ -19,13 +19,13 @@ function OfferImageSlider() {
         loop={true}
       >
         <SwiperSlide>
-          <Image src={slide1} alt="Slide 1" className="rounded-lg w-full" />
+          <Image src={slide1} alt="Slide 1" className="w-full rounded-lg" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={slide1} alt="Slide 1" className="rounded-lg w-full" />
+          <Image src={slide1} alt="Slide 1" className="w-full rounded-lg" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={slide1} alt="Slide 1" className="rounded-lg w-full" />
+          <Image src={slide1} alt="Slide 1" className="w-full rounded-lg" />
         </SwiperSlide>
       </Swiper>
     </div>

@@ -14,19 +14,19 @@ export default function Inspiration() {
     <>
       <div className="bg-teritary-bg">
         <div className="container">
-          <div className="flex justify-between items-end gap-5 flex-wrap py-16">
+          <div className="flex flex-wrap items-end justify-between gap-5 py-16">
             <div className="">
-              <h2 className="text-primary-bg md:text-4xl text-2xl text-left font-bold max-w-sm md:!leading-[51px] leading-9">
+              <h2 className="max-w-sm text-left text-2xl font-bold leading-9 text-primary-bg md:text-4xl md:!leading-[51px]">
                 Inspiration for your next getaway
               </h2>
-              <p className="text-secondary-text mt-6 text-lg font-medium max-w-2xl">
+              <p className="mt-6 max-w-2xl text-lg font-medium text-secondary-text">
                 Discover exclusive offers across Lifestyle Retreats properties
                 and enjoy bespoke experiences by staying at one of our
                 destinations.
               </p>
             </div>
-            <div className="max-w-80 w-full">
-              <Link href="/" className="text-xl text-primary-bg font-semibold">
+            <div className="w-full max-w-80">
+              <Link href="/" className="text-xl font-semibold text-primary-bg">
                 VIEW ALL
               </Link>
             </div>

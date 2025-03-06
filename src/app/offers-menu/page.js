@@ -10,7 +10,7 @@ function page() {
   return (
     <div>
       <Header />
-      <div className="md:pt-20 pt-16">
+      <div className="pt-16 md:pt-20">
         <WildBreadcrumb />
       </div>
       <RoomGallerySlider />

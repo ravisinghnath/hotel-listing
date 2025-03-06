@@ -26,56 +26,56 @@ function RoomSlider() {
         <SwiperSlide>
           <Image
             src={Room1}
-            className="w-full object-cover h-80"
+            className="h-80 w-full object-cover"
             alt="room_images"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={Room2}
-            className="w-full object-cover h-80"
+            className="h-80 w-full object-cover"
             alt="room_images"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={Room3}
-            className="w-full object-cover h-80"
+            className="h-80 w-full object-cover"
             alt="room_images"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={Room4}
-            className="w-full object-cover h-80"
+            className="h-80 w-full object-cover"
             alt="room_images"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={Room5}
-            className="w-full object-cover h-80"
+            className="h-80 w-full object-cover"
             alt="room_images"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={Room1}
-            className="w-full object-cover h-80"
+            className="h-80 w-full object-cover"
             alt="room_images"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={Room2}
-            className="w-full object-cover h-80"
+            className="h-80 w-full object-cover"
             alt="room_images"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={Room3}
-            className="w-full object-cover h-80"
+            className="h-80 w-full object-cover"
             alt="room_images"
           />
         </SwiperSlide>

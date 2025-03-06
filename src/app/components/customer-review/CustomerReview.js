@@ -6,7 +6,7 @@ import CustomerSlider from "./CustomerSlider";
 function CustomerReview() {
   return (
     <>
-      <div className="container lg:py-16 py-12">
+      <div className="container py-12 lg:py-16">
         <Heading
           heading={"Customers Review"}
           subheading={

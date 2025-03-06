@@ -87,7 +87,7 @@ export default function Offers() {
       .map((_, i) => (
         <span
           key={i}
-          className={`text-yellow-400 text-sm ${i < rating ? "" : "opacity-30"}`}
+          className={`text-sm text-yellow-400 ${i < rating ? "" : "opacity-30"}`}
         >
           ★
         </span>
@@ -104,7 +104,7 @@ export default function Offers() {
       />
       <div className="bg-secondary-bg pt-10">
         <div className="container">
-          <div className="max-w-6xl mx-auto px-4 mt-16">
+          <div className="mx-auto mt-16 max-w-6xl px-4">
             {/* Main Resort Slider */}
             <Swiper
               modules={[Navigation, Pagination, Autoplay]}
@@ -126,9 +126,9 @@ export default function Offers() {
             >
               {resorts.map((resort) => (
                 <SwiperSlide key={resort.id}>
-                  <div className="flex flex-col md:flex-row bg-white rounded-lg overflow-hidden">
+                  <div className="flex flex-col overflow-hidden rounded-lg bg-white md:flex-row">
                     {/* Image Slider (nested) */}
-                    <div className="w-full md:w-1/2 relative">
+                    <div className="relative w-full md:w-1/2">
                       <Swiper
                         modules={[Navigation, Pagination]}
                         spaceBetween={0}
@@ -152,15 +152,15 @@ export default function Offers() {
                             <img
                               src={image || `/api/placeholder/600/400`}
                               alt={`${resort.title} view ${index + 1}`}
-                              className="w-full h-full object-cover"
+                              className="h-full w-full object-cover"
                             />
                           </SwiperSlide>
                         ))}
 
                         {/* Custom image slider navigation */}
-                        <div className="image-swiper-button-prev absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white bg-opacity-50 hover:bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center cursor-pointer transition-all">
+                        <div className="image-swiper-button-prev absolute left-4 top-1/2 z-10 flex h-8 w-8 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 transition-all hover:bg-opacity-80">
                           <svg
-                            className="w-4 h-4 text-gray-800"
+                            className="h-4 w-4 text-gray-800"
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
@@ -174,9 +174,9 @@ export default function Offers() {
                             />
                           </svg>
                         </div>
-                        <div className="image-swiper-button-next absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white bg-opacity-50 hover:bg-opacity-80 w-8 h-8 rounded-full flex items-center justify-center cursor-pointer transition-all">
+                        <div className="image-swiper-button-next absolute right-4 top-1/2 z-10 flex h-8 w-8 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 transition-all hover:bg-opacity-80">
                           <svg
-                            className="w-4 h-4 text-gray-800"
+                            className="h-4 w-4 text-gray-800"
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
@@ -197,15 +197,15 @@ export default function Offers() {
                     </div>
 
                     {/* Resort Details */}
-                    <div className="w-full md:w-1/2 p-6 flex flex-col">
-                      <div className="text-gray-600 text-sm mb-1">
+                    <div className="flex w-full flex-col p-6 md:w-1/2">
+                      <div className="mb-1 text-sm text-gray-600">
                         {resort.collection}
                       </div>
-                      <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                      <h2 className="mb-2 text-2xl font-bold text-gray-900">
                         {resort.title}
                       </h2>
 
-                      <div className="flex mb-3">
+                      <div className="mb-3 flex">
                         {renderStars(resort.rating)}
                       </div>
 
@@ -218,12 +218,12 @@ export default function Offers() {
                         </div>
                       </div>
 
-                      <p className="text-gray-600 text-sm flex-grow">
+                      <p className="flex-grow text-sm text-gray-600">
                         {resort.description}
                       </p>
 
                       <div className="mt-6">
-                        <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded transition-colors">
+                        <button className="rounded bg-red-600 px-6 py-2 text-white transition-colors hover:bg-red-700">
                           View Offer
                         </button>
                       </div>
@@ -234,11 +234,11 @@ export default function Offers() {
             </Swiper>
 
             {/* Custom main slider pagination */}
-            <div className="flex justify-center gap-2 mt-6">
+            <div className="mt-6 flex justify-center gap-2">
               {resorts.map((_, index) => (
                 <span
                   key={index}
-                  className={`inline-block w-2 h-2 rounded-full cursor-pointer transition-all ${index === activeIndex ? "bg-red-600 scale-110" : "bg-gray-300"}`}
+                  className={`inline-block h-2 w-2 cursor-pointer rounded-full transition-all ${index === activeIndex ? "scale-110 bg-red-600" : "bg-gray-300"}`}
                   onClick={() => {
                     const mainSwiper =
                       document.querySelector(".resort-slider").swiper;

@@ -10,14 +10,14 @@ import Link from "next/link";
 export default function collection() {
   return (
     <>
-      <div className="container lg:py-16 py-12">
+      <div className="container py-12 lg:py-16">
         <Heading
           heading={"Explore our Collection"}
           subheading={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim"
           }
         />
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <CollectionCard
             image={collection1}
             collection="Wild Collection"
@@ -43,7 +43,7 @@ export default function collection() {
             price="10,000 LKR"
           />
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-8 mt-16">
+        <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
           <CollectionCard
             image={collection1}
             collection="Wild Collection"
@@ -69,10 +69,10 @@ export default function collection() {
             price="10,000 LKR"
           />
         </div>
-        <div className="flex justify-center mx-auto lg:mt-16 mt-14">
+        <div className="mx-auto mt-14 flex justify-center lg:mt-16">
           <Link
             href="/"
-            className="text-main-bg text-center px-10 py-3 rounded-full bg-primary-bg transition-all delay-300 border-2 border-primary-bg hover:bg-transparent hover:text-primary-bg mb-6"
+            className="mb-6 rounded-full border-2 border-primary-bg bg-primary-bg px-10 py-3 text-center text-main-bg transition-all delay-300 hover:bg-transparent hover:text-primary-bg"
           >
             Explore more
           </Link>

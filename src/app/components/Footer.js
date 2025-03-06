@@ -9,8 +9,8 @@ import { RiTiktokFill } from "react-icons/ri";
 export default function Footer() {
   return (
     <>
-      <div className="container lg:py-8 py-6">
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-12 justify-between text-secondary-text">
+      <div className="container py-6 lg:py-8">
+        <div className="grid grid-cols-1 justify-between gap-12 text-secondary-text md:grid-cols-2">
           <div className="max-w-lg">
             <Link href="#">
               <Image src={logo} className="max-w-40" alt="" />
@@ -21,11 +21,11 @@ export default function Footer() {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <ul className="flex gap-8 items-center">
+            <ul className="flex items-center gap-8">
               <li>
                 <Link href="#">
                   <FaFacebookF
-                    className="text-secondary-text font-medium hover:text-primary-bg hover:scale-150 transition-all ease-in-out delay-300"
+                    className="font-medium text-secondary-text transition-all delay-300 ease-in-out hover:scale-150 hover:text-primary-bg"
                     size={16}
                   />
                 </Link>
@@ -33,7 +33,7 @@ export default function Footer() {
               <li>
                 <Link href="#">
                   <IoLogoInstagram
-                    className="text-secondary-text font-medium hover:text-primary-bg hover:scale-150 transition-all ease-in-out delay-300"
+                    className="font-medium text-secondary-text transition-all delay-300 ease-in-out hover:scale-150 hover:text-primary-bg"
                     size={16}
                   />
                 </Link>
@@ -41,19 +41,19 @@ export default function Footer() {
               <li>
                 <Link href="#">
                   <RiTiktokFill
-                    className="text-secondary-text font-medium hover:text-primary-bg hover:scale-150 transition-all ease-in-out delay-300"
+                    className="font-medium text-secondary-text transition-all delay-300 ease-in-out hover:scale-150 hover:text-primary-bg"
                     size={16}
                   />
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="flex md:justify-end justify-start flex-wrap md:flex-nowrap gap-20 w-full">
+          <div className="flex w-full flex-wrap justify-start gap-20 md:flex-nowrap md:justify-end">
             <ul className="flex flex-col gap-4">
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg transition-all delay-300 ease-in-out"
+                  className="transition-all delay-300 ease-in-out hover:text-primary-bg"
                 >
                   Scenery
                 </Link>
@@ -61,7 +61,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg transition-all delay-200 ease-in-out"
+                  className="transition-all delay-200 ease-in-out hover:text-primary-bg"
                 >
                   Places to Stay
                 </Link>
@@ -69,7 +69,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg transition-all delay-200 ease-in-out"
+                  className="transition-all delay-200 ease-in-out hover:text-primary-bg"
                 >
                   Offers
                 </Link>
@@ -79,7 +79,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg transition-all delay-200 ease-in-out"
+                  className="transition-all delay-200 ease-in-out hover:text-primary-bg"
                 >
                   Scenery
                 </Link>
@@ -87,7 +87,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg transition-all delay-200 ease-in-out"
+                  className="transition-all delay-200 ease-in-out hover:text-primary-bg"
                 >
                   Places to Stay
                 </Link>
@@ -95,7 +95,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg transition-all delay-200 ease-in-out"
+                  className="transition-all delay-200 ease-in-out hover:text-primary-bg"
                 >
                   Offers
                 </Link>
@@ -105,7 +105,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg transition-all delay-200 ease-in-out"
+                  className="transition-all delay-200 ease-in-out hover:text-primary-bg"
                 >
                   Scenery
                 </Link>
@@ -113,7 +113,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg transition-all delay-200 ease-in-out"
+                  className="transition-all delay-200 ease-in-out hover:text-primary-bg"
                 >
                   Places to Stay
                 </Link>
@@ -121,7 +121,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg transition-all delay-200 ease-in-out"
+                  className="transition-all delay-200 ease-in-out hover:text-primary-bg"
                 >
                   Offers
                 </Link>
@@ -129,7 +129,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t pt-5 mt-10">
+        <div className="mt-10 border-t pt-5">
           <p className="text-secondary-text">
             © Lexro Leisureway. All rights reserved
           </p>

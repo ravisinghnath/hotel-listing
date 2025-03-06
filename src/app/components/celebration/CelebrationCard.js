@@ -11,10 +11,10 @@ export default function CelebrationCard(props) {
           alt="card_image"
         />
         <div>
-          <h4 className="md:text-xl text-lg font-semibold text-primary-bg md:mt-7 mt-6">
+          <h4 className="mt-6 text-lg font-semibold text-primary-bg md:mt-7 md:text-xl">
             {props.heading}
           </h4>
-          <p className="text-primary-text md:max-w-md w-full md:mt-4 mt-3.5">
+          <p className="mt-3.5 w-full text-primary-text md:mt-4 md:max-w-md">
             {props.content}
           </p>
         </div>

@@ -8,14 +8,14 @@ import Heading from "../heading/Heading";
 function Facility() {
   return (
     <>
-      <div className="container md:py-16 py-8">
+      <div className="container py-8 md:py-16">
         <Heading
           heading={"We are not afraid to be “different”"}
           subheading={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim"
           }
         />
-        <div className="grid md:grid-cols-3 grid-cols-1 place-items-center md:pt-7 pt-3 gap-16">
+        <div className="grid grid-cols-1 place-items-center gap-16 pt-3 md:grid-cols-3 md:pt-7">
           <FacilityCard
             image={facility1}
             title="Handpicked Destinations"

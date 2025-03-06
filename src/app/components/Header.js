@@ -28,14 +28,14 @@ function Header() {
   return (
     <header>
       <div className="bg-head-bg">
-        <div className="container flex md:justify-end justify-center items-center gap-14 py-2.5 md:py-0">
+        <div className="container flex items-center justify-center gap-14 py-2.5 md:justify-end md:py-0">
           <div className="flex items-center gap-2.5">
-            <p className="text-secondary-text font-medium text-sm">
+            <p className="text-sm font-medium text-secondary-text">
               Message us on{" "}
             </p>
             <Link
               href="#"
-              className="flex items-center text-secondary-text gap-2.5 font-medium text-sm"
+              className="flex items-center gap-2.5 text-sm font-medium text-secondary-text"
             >
               <span>
                 <FaWhatsapp className="font-medium" />
@@ -44,12 +44,12 @@ function Header() {
             </Link>
           </div>
 
-          <nav className="text-secondary-text text-sm py-3 hidden md:block">
+          <nav className="hidden py-3 text-sm text-secondary-text md:block">
             <ul className="flex items-center space-x-5">
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg text-xs font-medium transition-all delay-200 relative after:absolute after:content-['/'] after:px-2 after:top-0"
+                  className="relative text-xs font-medium transition-all delay-200 after:absolute after:top-0 after:px-2 after:content-['/'] hover:text-primary-bg"
                 >
                   Home
                 </Link>
@@ -58,7 +58,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg text-xs font-medium transition-all delay-200 relative after:absolute after:content-['/'] after:px-2 after:top-0"
+                  className="relative text-xs font-medium transition-all delay-200 after:absolute after:top-0 after:px-2 after:content-['/'] hover:text-primary-bg"
                 >
                   Blog
                 </Link>
@@ -67,7 +67,7 @@ function Header() {
               <li>
                 <Link
                   href="/"
-                  className="hover:text-primary-bg text-xs font-medium transition-all delay-200"
+                  className="text-xs font-medium transition-all delay-200 hover:text-primary-bg"
                 >
                   Post Title
                 </Link>
@@ -75,11 +75,11 @@ function Header() {
             </ul>
           </nav>
           <div className="hidden md:block">
-            <ul className="flex gap-8 items-center">
+            <ul className="flex items-center gap-8">
               <li>
                 <Link href="#">
                   <FaFacebookF
-                    className="text-secondary-text font-medium"
+                    className="font-medium text-secondary-text"
                     size={14}
                   />
                 </Link>
@@ -87,7 +87,7 @@ function Header() {
               <li>
                 <Link href="#">
                   <IoLogoInstagram
-                    className="text-secondary-text font-medium"
+                    className="font-medium text-secondary-text"
                     size={14}
                   />
                 </Link>
@@ -95,7 +95,7 @@ function Header() {
               <li>
                 <Link href="#">
                   <RiTiktokFill
-                    className="text-secondary-text font-medium"
+                    className="font-medium text-secondary-text"
                     size={14}
                   />
                 </Link>
@@ -105,17 +105,17 @@ function Header() {
         </div>
       </div>
       <div
-        className={`fixed left-0 w-full z-20 transition-all duration-75 ${
+        className={`fixed left-0 z-20 w-full transition-all duration-75 ${
           isScrolled
             ? "top-0 bg-white shadow-md"
-            : "lg:top-[38px] top-[35px] bg-white"
+            : "top-[35px] bg-white lg:top-[38px]"
         }`}
       >
         <nav className="bg-main-bg shadow-md">
-          <div className="container mx-auto  py-3.5 flex justify-between items-center w-full max-md:relative">
+          <div className="container mx-auto flex w-full items-center justify-between py-3.5 max-md:relative">
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden text-gray-700"
+              className="text-gray-700 md:hidden"
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? (
@@ -127,16 +127,16 @@ function Header() {
             {/* Logo */}
             <Link
               href="/"
-              className="flex items-center max-md:absolute max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-Y-1/2"
+              className="max-md:-translate-Y-1/2 flex items-center max-md:absolute max-md:left-1/2 max-md:-translate-x-1/2"
             >
               <Image src={logo} className="w-44 md:w-56" alt="" />
             </Link>
             {/* Desktop Menu */}
-            <ul className="hidden md:flex items-center space-x-11">
+            <ul className="hidden items-center space-x-11 md:flex">
               <li>
                 <Link
                   href="/sceneries"
-                  className="text-secondary-text hover:text-primary-bg font-medium"
+                  className="font-medium text-secondary-text hover:text-primary-bg"
                 >
                   Sceneries
                 </Link>
@@ -144,7 +144,7 @@ function Header() {
               <li>
                 <Link
                   href="/places"
-                  className="text-secondary-text hover:text-primary-bg font-medium"
+                  className="font-medium text-secondary-text hover:text-primary-bg"
                 >
                   Places to Stay
                 </Link>
@@ -152,7 +152,7 @@ function Header() {
               <li>
                 <Link
                   href="/offers-menu"
-                  className="text-secondary-text hover:text-primary-bg font-medium"
+                  className="font-medium text-secondary-text hover:text-primary-bg"
                 >
                   Offers
                 </Link>
@@ -160,7 +160,7 @@ function Header() {
               <li>
                 <Link
                   href="/wild-collection"
-                  className="text-secondary-text hover:text-primary-bg font-medium"
+                  className="font-medium text-secondary-text hover:text-primary-bg"
                 >
                   Wild collection
                 </Link>
@@ -169,7 +169,7 @@ function Header() {
               <li>
                 <Link
                   href="#"
-                  className="hidden md:block bg-primary-bg text-white px-5 py-2 rounded-full transition-all delay-200 border-2 border-primary-bg hover:bg-transparent hover:text-primary-bg"
+                  className="hidden rounded-full border-2 border-primary-bg bg-primary-bg px-5 py-2 text-white transition-all delay-200 hover:bg-transparent hover:text-primary-bg md:block"
                 >
                   Get a Quote
                 </Link>
@@ -179,28 +179,28 @@ function Header() {
 
           {/* Mobile Menu */}
           {isOpen && (
-            <div className="md:hidden bg-white border-t border-gray-200 pb-5">
+            <div className="border-t border-gray-200 bg-white pb-5 md:hidden">
               <Link
                 href="/sceneries"
-                className="block px-5 py-3 text-gray-700 hover:bg-gray-100 text-center"
+                className="block px-5 py-3 text-center text-gray-700 hover:bg-gray-100"
               >
                 Sceneries
               </Link>
               <Link
                 href="/places"
-                className="block px-4 py-3 text-gray-700 hover:bg-gray-100 text-center"
+                className="block px-4 py-3 text-center text-gray-700 hover:bg-gray-100"
               >
                 Places to Stay
               </Link>
               <Link
                 href="/offers"
-                className="block px-4 py-3 text-gray-700 hover:bg-gray-100 text-center"
+                className="block px-4 py-3 text-center text-gray-700 hover:bg-gray-100"
               >
                 Offers
               </Link>
               <Link
                 href="#"
-                className="block text-main-bg text-center px-4 py-3 rounded-full mx-4 mt-3 bg-primary-bg transition-all delay-300 border-2 border-primary-bg hover:bg-transparent hover:text-primary-bg mb-6"
+                className="mx-4 mb-6 mt-3 block rounded-full border-2 border-primary-bg bg-primary-bg px-4 py-3 text-center text-main-bg transition-all delay-300 hover:bg-transparent hover:text-primary-bg"
               >
                 Get a Quote
               </Link>

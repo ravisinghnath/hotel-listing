@@ -11,7 +11,7 @@ import profile from "@/app/asset/customer-profile.svg";
 function CustomerSlider() {
   return (
     <div>
-      <div className="w-full mx-auto z-50 my-10">
+      <div className="z-50 mx-auto my-10 w-full">
         <Swiper
           slidesPerView={2}
           spaceBetween={20}

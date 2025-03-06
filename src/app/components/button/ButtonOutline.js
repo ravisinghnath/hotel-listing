@@ -6,7 +6,7 @@ function ButtonOutline(props) {
     <>
       <Link
         href="/"
-        className="inline-flex text-primary-bg text-center font-medium px-10 py-3 rounded-full bg-transparent transition-all delay-300 border-2 border-primary-bg hover:bg-primary-bg hover:text-white mb-6"
+        className="mb-6 inline-flex rounded-full border-2 border-primary-bg bg-transparent px-10 py-3 text-center font-medium text-primary-bg transition-all delay-300 hover:bg-primary-bg hover:text-white"
       >
         {props.title}
       </Link>

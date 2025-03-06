@@ -11,12 +11,12 @@ function RoomDetail() {
     <>
       <RoomGallerySlider />
       <div className="container">
-        <div className="md:py-11 py-5">
-          <p className="text-primary-bg font-medium">Wild Collection</p>
+        <div className="py-5 md:py-11">
+          <p className="font-medium text-primary-bg">Wild Collection</p>
           <h4 className="mt-2.5 text-2xl font-semibold">
             Anantara Peace Haven
           </h4>
-          <div className="mt-3 flex gap-2 items-center">
+          <div className="mt-3 flex items-center gap-2">
             <FaLocationDot className="text-primary-bg" size={14} />
             <p className="text-sm text-secondary-text">Tangalle, Hambanthota</p>
             <div className="flex">
@@ -39,7 +39,7 @@ function RoomDetail() {
           </div>
           <div className="py-10">
             <LeftHeading title="Why we selected this property" />
-            <p className="md:mt-8 mt-4 text-secondary-text text-lg leading-8">
+            <p className="mt-4 text-lg leading-8 text-secondary-text md:mt-8">
               Explore the island’s rainforests, pilgrimage sites and fishing
               ports. Dine cliffside, embark on surf adventures, or retreat to
               the sanctuary of Anantara Spa with award-winning Ayurvedic
@@ -48,7 +48,7 @@ function RoomDetail() {
               retreat to the sanctuary of Anantara Spa with award-winning
               Ayurvedic treatments.
             </p>
-            <p className="mt-8 text-secondary-text text-lg leading-8">
+            <p className="mt-8 text-lg leading-8 text-secondary-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

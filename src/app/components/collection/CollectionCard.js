@@ -12,12 +12,12 @@ export default function CollectionCard(props) {
           className="w-full rounded-t-xl"
           alt="collection_card"
         />
-        <div className="flex justify-between items-center mt-5 text-secondary-text">
+        <div className="mt-5 flex items-center justify-between text-secondary-text">
           <p>{props.collection}</p>
           <p>{props.starting}</p>
         </div>
-        <div className="flex justify-between items-center mt-2.5">
-          <div className="flex gap-3.5 flex-wrap text-lg font-medium">
+        <div className="mt-2.5 flex items-center justify-between">
+          <div className="flex flex-wrap gap-3.5 text-lg font-medium">
             <h5>{props.place}</h5>
             <p className="flex items-center gap-1 text-tertiary-text">
               {props.rating}{" "}
@@ -27,7 +27,7 @@ export default function CollectionCard(props) {
             </p>
           </div>
           <div>
-            <p className="text-primary-bg text-xl font-medium">{props.price}</p>
+            <p className="text-xl font-medium text-primary-bg">{props.price}</p>
           </div>
         </div>
       </div>

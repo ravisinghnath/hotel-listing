@@ -20,24 +20,24 @@ function OfferSlider() {
         }
       />
 
-      <div className="bg-secondary-bg offer">
+      <div className="offer bg-secondary-bg">
         <div className="container">
-          <div className="pt-6 md:pt-16  md:pb-9 pb-6">
+          <div className="pb-6 pt-6 md:pb-9 md:pt-16">
             <Swiper
               modules={[Pagination]}
               pagination={{ clickable: true }}
               loop={true}
             >
               <SwiperSlide>
-                <div className="flex flex-wrap lg:flex-nowrap text-center md:text-left md:gap-12 gap-8">
-                  <div className="lg:max-w-2xl max-w-full w-full offer_inner">
+                <div className="flex flex-wrap gap-8 text-center md:gap-12 md:text-left lg:flex-nowrap">
+                  <div className="offer_inner w-full max-w-full lg:max-w-2xl">
                     <OfferImageSlider />
                   </div>
                   <div>
-                    <p className="text-secondary-text md:text-lg text-sm font-medium">
+                    <p className="text-sm font-medium text-secondary-text md:text-lg">
                       Wild Collection
                     </p>
-                    <h4 className="md:text-3xl text-2xl mt-3 font-semibold">
+                    <h4 className="mt-3 text-2xl font-semibold md:text-3xl">
                       98 Acres Resort and Spa
                     </h4>
                     <div className="mt-3 inline-block">
@@ -58,11 +58,11 @@ function OfferSlider() {
                       <p className="text-base text-secondary-text">
                         Starting from
                       </p>
-                      <p className="text-primary-bg font-medium text-2xl mt-2.5">
+                      <p className="mt-2.5 text-2xl font-medium text-primary-bg">
                         10,000 LKR
                       </p>
-                      <div className="md:mt-8 mt-6 max-w-2xl">
-                        <p className="text-secondary-text text-lg leading-8">
+                      <div className="mt-6 max-w-2xl md:mt-8">
+                        <p className="text-lg leading-8 text-secondary-text">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
                           dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -71,7 +71,7 @@ function OfferSlider() {
                           commodo consequat.{" "}
                         </p>
                       </div>
-                      <div className="inline-flex md:mt-8 mt-6 md:mb-14 mb-5">
+                      <div className="mb-5 mt-6 inline-flex md:mb-14 md:mt-8">
                         <Button title="View Offer" />
                       </div>
                     </div>
@@ -81,15 +81,15 @@ function OfferSlider() {
                 {/* <Image src={collection1} alt='Slide 1' className="rounded-lg" /> */}
               </SwiperSlide>
               <SwiperSlide>
-                <div className="flex flex-wrap lg:flex-nowrap text-center md:text-left md:gap-12 gap-8">
-                  <div className="lg:max-w-2xl max-w-full w-full offer_inner">
+                <div className="flex flex-wrap gap-8 text-center md:gap-12 md:text-left lg:flex-nowrap">
+                  <div className="offer_inner w-full max-w-full lg:max-w-2xl">
                     <OfferImageSlider />
                   </div>
                   <div>
-                    <p className="text-secondary-text md:text-lg text-sm font-medium">
+                    <p className="text-sm font-medium text-secondary-text md:text-lg">
                       Wild Collection
                     </p>
-                    <h4 className="md:text-3xl text-2xl mt-3 font-semibold">
+                    <h4 className="mt-3 text-2xl font-semibold md:text-3xl">
                       98 Acres Resort and Spa
                     </h4>
                     <div className="mt-3 inline-block">
@@ -110,11 +110,11 @@ function OfferSlider() {
                       <p className="text-base text-secondary-text">
                         Starting from
                       </p>
-                      <p className="text-primary-bg font-medium text-2xl mt-2.5">
+                      <p className="mt-2.5 text-2xl font-medium text-primary-bg">
                         10,000 LKR
                       </p>
-                      <div className="md:mt-8 mt-6 max-w-2xl">
-                        <p className="text-secondary-text text-lg leading-8">
+                      <div className="mt-6 max-w-2xl md:mt-8">
+                        <p className="text-lg leading-8 text-secondary-text">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
                           dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -123,7 +123,7 @@ function OfferSlider() {
                           commodo consequat.{" "}
                         </p>
                       </div>
-                      <div className="inline-flex md:mt-8 mt-6 md:mb-14 mb-5">
+                      <div className="mb-5 mt-6 inline-flex md:mb-14 md:mt-8">
                         <Button title="View Offer" />
                       </div>
                     </div>
@@ -133,15 +133,15 @@ function OfferSlider() {
                 {/* <Image src={collection1} alt='Slide 1' className="rounded-lg" /> */}
               </SwiperSlide>
               <SwiperSlide>
-                <div className="flex flex-wrap lg:flex-nowrap text-center md:text-left md:gap-12 gap-8">
-                  <div className="lg:max-w-2xl max-w-full w-full offer_inner">
+                <div className="flex flex-wrap gap-8 text-center md:gap-12 md:text-left lg:flex-nowrap">
+                  <div className="offer_inner w-full max-w-full lg:max-w-2xl">
                     <OfferImageSlider />
                   </div>
                   <div>
-                    <p className="text-secondary-text md:text-lg text-sm font-medium">
+                    <p className="text-sm font-medium text-secondary-text md:text-lg">
                       Wild Collection
                     </p>
-                    <h4 className="md:text-3xl text-2xl mt-3 font-semibold">
+                    <h4 className="mt-3 text-2xl font-semibold md:text-3xl">
                       98 Acres Resort and Spa
                     </h4>
                     <div className="mt-3 inline-block">
@@ -162,11 +162,11 @@ function OfferSlider() {
                       <p className="text-base text-secondary-text">
                         Starting from
                       </p>
-                      <p className="text-primary-bg font-medium text-2xl mt-2.5">
+                      <p className="mt-2.5 text-2xl font-medium text-primary-bg">
                         10,000 LKR
                       </p>
-                      <div className="md:mt-8 mt-6 max-w-2xl">
-                        <p className="text-secondary-text text-lg leading-8">
+                      <div className="mt-6 max-w-2xl md:mt-8">
+                        <p className="text-lg leading-8 text-secondary-text">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut labore et
                           dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -175,7 +175,7 @@ function OfferSlider() {
                           commodo consequat.{" "}
                         </p>
                       </div>
-                      <div className="inline-flex md:mt-8 mt-6 md:mb-14 mb-5">
+                      <div className="mb-5 mt-6 inline-flex md:mb-14 md:mt-8">
                         <Button title="View Offer" />
                       </div>
                     </div>
