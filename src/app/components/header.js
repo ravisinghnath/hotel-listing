@@ -77,8 +77,8 @@ function header() {
         </Link>
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center space-x-11">
-         <li><Link href="/sceneries" className="text-secondary-text hover:text-primary-bg font-medium">Sceneries</Link></li>
-         <li><Link href="/places" className="text-secondary-text hover:text-primary-bg font-medium">Places to Stay</Link></li>
+         {/* <li><Link href="/sceneries" className="text-secondary-text hover:text-primary-bg font-medium">Sceneries</Link></li>
+         <li><Link href="/places" className="text-secondary-text hover:text-primary-bg font-medium">Places to Stay</Link></li> */}
          <li><Link href="/offers-menu" className="text-secondary-text hover:text-primary-bg font-medium">Offers</Link></li>
          <li><Link href="/wild-collection" className="text-secondary-text hover:text-primary-bg font-medium">Wild collection</Link></li>
             {/* Quote Button */}
@@ -89,8 +89,8 @@ function header() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-200 pb-5">
-          <Link href="/sceneries" className="block px-5 py-3 text-gray-700 hover:bg-gray-100 text-center">Sceneries</Link>
-          <Link href="/places" className="block px-4 py-3 text-gray-700 hover:bg-gray-100 text-center">Places to Stay</Link>
+          {/* <Link href="/sceneries" className="block px-5 py-3 text-gray-700 hover:bg-gray-100 text-center">Sceneries</Link>
+          <Link href="/places" className="block px-4 py-3 text-gray-700 hover:bg-gray-100 text-center">Places to Stay</Link> */}
           <Link href="/offers" className="block px-4 py-3 text-gray-700 hover:bg-gray-100 text-center">Offers</Link>
           <Link href="#" className="block text-main-bg text-center px-4 py-3 rounded-full mx-4 mt-3 bg-primary-bg transition-all delay-300 border-2 border-primary-bg hover:bg-transparent hover:text-primary-bg mb-6">
             Get a Quote
