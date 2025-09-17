@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function page() {
-  return (
-    <div>
-      places to stay
-    </div>
-  )
+  return <div>places to stay</div>;
 }
 
-export default page
+export default page;
